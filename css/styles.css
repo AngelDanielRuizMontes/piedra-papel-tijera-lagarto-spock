@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'spiderman';
+  src: url('../img/The\ Amazing\ Spider-Man.ttf') format('truetype');
+}
+
+body {
+  background: url(../img/body.jpg);
+  background-size: cover;
+  text-align: justify;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+#container {
+  width: 777px;
+}
+
+#header {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+    top: 0;
+      height: 34px;
+      padding: 13px 0 4px;
+      position: fixed;
+      width: 100%;
+      z-index: 5000;
+}
+
+#header h1 {
+  font-size: 24px;
+  margin: 0.6em;
+}
+#header h2 {
+  font-size: 20px;
+  margin: 0.2em;
+}
+
+#content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#content h2 {
+  color:#000;
+  font-size: 160%;
+  margin: 0 0 .5em;
+}
+
+.caja-destacada {
+  padding: 15px 15px 15px 15px;
+  border: 5px solid #F98200;
+  border-radius: 10px;
+  background: #F5F5F5;
+  margin-bottom: 30px;
+  line-height: 26px !important;
+  width: auto;
+  }
+
+  #papel {
+    background-image: url('../img/papel.svg');
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+  }
+  
+  #piedra {
+    background-image: url('../img/piedra.svg');
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+  }
+  
+  #tijera {
+    background-image: url('../img/tijera.svg');
+    background-repeat: no-repeat;
+    height:30px;
+    width:30px;
+  }
+
+  #lagarto {
+    background-image: url('../img/lagarto.svg');
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+  }
+  
+  #spock {
+    background-image: url('../img/spock.svg');
+    background-repeat: no-repeat;
+    height:30px;
+    width:30px;
+  }
+
+  #footer {
+    color: yellow;
+    text-align: center;
+    text-shadow: red 0.1em 0.1em 0.2em;
+    font-family: 'spiderman', sans-serif;
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0px;
+    height: 1%;
+    bottom: 0;
+        height: 34px;
+        padding: 13px 0 4px;
+        position: fixed;
+        width: 100%;
+        z-index: 5000;      
+    }
